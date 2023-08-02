@@ -21,6 +21,7 @@ function generateRandomUKNumber() {
     }
     return number;
 }
+
 function generateUKMobileData() {
     const testCases = [];
 
