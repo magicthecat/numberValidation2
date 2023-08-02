@@ -127,7 +127,7 @@ const globalValidationRules = {
 
 const testCases = [
     {
-        number: '+44 7449234611',
+        number: '+44 7449235611',
         type: 'mobile',
         regions: ['UK'],
         expectedValidity: {
@@ -160,10 +160,7 @@ const testCases = [
             'UK': false
         },
 
-    },
-    // ...
-    // other test cases go here
-    // ...
+    }
 ];
 
 describe("PhoneNumberValidator", () => {
