@@ -121,6 +121,7 @@ const globalValidationRules = {
     },
 };
 
+
 class PhoneNumberValidator {
     constructor(type, regions, rules = globalValidationRules) {
         this.type = type;
